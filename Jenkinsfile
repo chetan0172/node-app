@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'https://bitbucket.org/your_username/your_repo.git', branch: 'main'
+                git url: 'https://github.com/chetan0172/node-app', branch: 'master'
             }
         }
         stage('Build Docker Image') {
